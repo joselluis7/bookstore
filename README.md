@@ -1,8 +1,8 @@
 # BOOKSTORE APP
 
-This is simple bookstore aplication that allow you to import csv file containing a set of books and return another file contanining final price.
+Está é uma aplicação básica, que permite você, importar um ficheiro csv com um cesto contendo livros. Existem 3 tipos de livros: LIVROS USADOS, LIVROS NOVOS E LIVROS EXCLUSIVOS. 
 
-## Structure:
+## Estrutura:
 /bookstore
 	/app
 		/helpers
@@ -12,13 +12,16 @@ This is simple bookstore aplication that allow you to import csv file containing
 		basket.py
 		book.py
 		exclusive_book.py
-		main.py
 		new_book.py
-		used_book.py	
+		used_book.py
+	/program
+		program01.py
 	README.md
 	setup.py
 	run.py
 
-## Getting Started
+## Execução
 
-The first step to getting started with the BOOKSTORE APP is run the run.py file that is in project root.
+Para executar basta rodar o script program01.py no direitorio raís do projecto:
+	$ python program01.py
+
