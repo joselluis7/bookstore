@@ -1,5 +1,6 @@
 class Book:
 	"""docstring for ClassName"""
+	TYPE = ""
 	def __init__(self, title,authors,isbn,price):
 
 		price = float(price)
@@ -7,6 +8,7 @@ class Book:
 		self.authors = authors
 		self.isbn = isbn
 		self.price = price
+
 
 	def get_title(self):
 		return self.title
