@@ -18,7 +18,8 @@ def main():
 	for book in basket.books:
 		authors = list_string(book.authors)
 		print("€ %6.2f " %(book.price) + "[{0}] {1}: {2} - {3}".format(book.TYPE,book.isbn,book.title,authors))
-	print("€ %s - Total"%currency_format(basket.total))
+	print("€ %6.2f - Total"%basket.total)
+
 if __name__ == '__main__':
 	sys.exit(main())
 	
