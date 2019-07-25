@@ -1,11 +1,11 @@
 #-*-encoding:utf-8-*- 
-from app.helpers.utils import currency_format, list_string
+from app.helpers.utils import list_string
 from app.basket import Basket
-from app import module_names
+from app import module_names, csv_path
 import csv,sys,os
 
 
-csv_path = os.path.join(os.path.abspath(os.path.dirname(__name__)),'basket.csv')
+
 def main():
 	basket = Basket()
 	with open(csv_path) as csv_file:

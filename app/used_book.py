@@ -10,3 +10,6 @@ class UsedBook(Book):
 
 	def set_price(self,price):
 		self.price = self.price - price*self.DISCOUNT
+
+	def get_realprice(self):
+		return self.price + price*self.DISCOUNT
