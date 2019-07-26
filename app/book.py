@@ -33,7 +33,6 @@ class Book:
 
 	def set_price(self, price):
 		self.price = price
-
 	
 	def __repr__(self):
 		return "< Book %r >" % (self.title)
